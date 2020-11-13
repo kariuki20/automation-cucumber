@@ -46,7 +46,7 @@ public class StepDef {
 	   public void The_background_color_should_change_to_skyBlue() throws Throwable {
 		   TakesScreenshot ts=(TakesScreenshot)(driver);
 		   File sourceFile=ts.getScreenshotAs(OutputType.FILE);
-		   FileUtils.copyFile(sourceFile, new File("C:\\Users.png"));
+		   FileUtils.copyFile(sourceFile, new File("C:\\Users\\Jenifer\\Desktop\\Datadriven.png"));
 		
 	
 	}
@@ -61,6 +61,18 @@ public class StepDef {
 		   
 	   }
 	   
-	  
+
+@When("^User clicks on  set skyBlue Background  button$")
+public void user_clicks_on_set_skyBlue_Background_button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+   
+} 
+
+@When("^User clicks on the  set White Background Button$")
+public void user_clicks_on_the_set_White_Background_Button() throws Throwable {
+    // Write code here that turns the phrase above into concrete actions
+    
+}
+
 	   
 }
